@@ -1,0 +1,58 @@
+
+.services .heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.services .heading h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+.services .content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.services .contentBx{
+    padding-right: 30px;
+}
+
+.services .contentBx h3
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services  img{
+    max-width: 25%;
+}
+
+.services{
+    background: #111;
+}
+.heading.white{
+    color: blanchedalmond;
+}
+.services .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.services .content .servicesBx{
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+    height: 350px;
+}
+.services .content .servicesBx:hover{
+    background-color: aqua;
+    cursor: pointer;
+}

@@ -1,0 +1,100 @@
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background: url("../../images/background.png");
+    background-size: cover;
+    background-position:right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h2{
+    font-size-adjust: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.banner h2 span {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.banner h3{
+    font-size-adjust: 1.5em;
+    color: #fff;
+    font-weight: 500;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    margin-top:20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn:hover{
+    transition: 0.5s linear ;
+    background: none;
+    border: 1px solid white;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px ;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition:0.5s;
+}
+header.sticky{
+    background: #fff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+header .logo{
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    animation: animatia 1s infinite alternate;
+}
+
+
+
+
+
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+
+header.sticky ul li a{
+    color: black;
+}
+.logo.sticky{
+    color: black;
+}
+
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+

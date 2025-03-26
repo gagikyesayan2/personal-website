@@ -1,0 +1,71 @@
+.big-container-footer .small-container{
+    max-width: 1080px;
+    margin: auto;
+}
+.big-container-footer .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.big-container-footer .col-5{
+    padding: 10px;
+    color: white;
+    width: 220px;
+    height: 160px;
+} 
+
+
+.big-container-footer .col-5 h2{
+    color: white;
+}
+.big-container-footer .col-5 p{
+    color: #9b9b9b;
+}
+.big-container-footer .col-5 nav ul li {
+    color: #9b9b9b;
+}
+.big-container-footer .small-container .col-5 nav form{
+    color: white;
+}
+
+.big-container-footer .small-container .col-5 nav form input, textarea{
+   display: block;
+   width: 200px;
+   border: none;
+   outline: none;
+   margin-top: 10px;
+   border-radius: 2px;
+   background-color: black;
+   color: white;
+   border-bottom: 1px solid white;
+}
+.big-container-footer .small-container .col-5 nav form input{
+    height: 25px;
+}
+
+.big-container-footer .small-container .col-5 h4{
+    font-size: 22px;
+}
+
+.big-container-footer .small-container .col-5 nav form button{
+   margin-top: 10px;
+   width: 200px;
+   height: 35px;
+   background-color: white;
+   color: black;
+   cursor: pointer;
+   border-radius: 2px;
+}
+
+.big-container-footer .col-5 nav ul h5 {
+    font-size: 16px;
+    color: white;
+}
+.big-container-footer{
+    background-color: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+

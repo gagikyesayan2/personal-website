@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/testimonials.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <a href="#" onclick="toggleMenu();" class="logo">G.Yesayan</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();" >Home</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu();" >Testimonials</a></li>
+            <li><a href="#services" onclick="toggleMenu();" >Services</a></li>
+            <li><a href="#contact"onclick="toggleMenu();"  >Contact</a></li>
+
+        </ul>
+    </header>
+        <section class="banner" id="home">
+               <div class="textBx">
+                   <h2>Hello, I'm <br><span>Gagik Yesayan.</span></h2>
+                    <h3>I'm a Full Stack Developer.</h3>
+                    <a href="#services" class="btn" >My Services</a>
+               </div>
+        </section>
+        <!-- <section class="about" id="about"> -->
+
+       <section id="testimonials" class="testimonial">
+        <h2>testimonials</h2>
+        <div class="small-testimonial-container">
+      
+        <div class="row-testimonial">
+            <div class="col">
+                <div class="client-photo">
+                    <img src="../icons/testimonial.png" alt="">
+                </div>
+                <div class="client-feedback">
+                    <p>Gagik was fast, professional, hit our deadlines, and delivered the end result we paid for. I would highly recommend him.</p>
+                    
+                </div>
+                <div class="client-name">
+                    <h4>William Robertson</h4>
+                    <a href="https://www.upwork.com/freelancers/~012b46be63d1d95985">Link to Feedback</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="client-photo">
+                    <img src="../icons/testimonial.png" alt="">
+                </div>
+                <div class="client-feedback">
+                    <p>You would be lucky to get him! Gagik can do everything! Very talented! Great Experience! Thank you, Gagik!!!!</p>                    
+                </div>
+                <br>
+                <div class="client-name">
+                    <h4>William Shore</h4>
+                    <a href="https://www.upwork.com/freelancers/~012b46be63d1d95985">Link to Feedback</a>
+                </div>
+            </div>
+            <br>
+            <div class="col">
+                <div class="client-photo">
+                    <img src="../icons/testimonial.png" alt="">
+                </div>
+                <div class="client-feedback">
+                   <p>Gagik is a fabulous and extremely knowledgeable web developer. In addition, Gagik is professional and super reliable.</p>                    
+                </div>
+                <div class="client-name">
+                    <h4>JP Pineda</h4>
+                    <a href="https://www.upwork.com/freelancers/~012b46be63d1d95985">Link to Feedback</a>
+                </div>
+            </div>
+     
+        </div>
+              
+    </div>
+       </section>
+        
+        <section class="services" id="services">
+     <div class="heading">
+         <h2>My Services</h2>
+         <p>error suscipit asha officia quae illo earum.</p>
+     </div>
+    <div class="content">
+        <div class="servicesBx">
+            <img src="../icons/icon1.png" alt="">
+               <h2>Web Design</h2>
+               <p>Enhancing web experiences with stunning visuals using Adobe Photoshop, Illustrator, and Figma. I design logos, UI elements, and marketing graphics that align with your brand identity.</p>
+        </div>
+        <div class="servicesBx">
+            <img src="../icons/icon2.png" alt="">
+               <h2>Frontend Development</h2>
+               <p>Building responsive, user-friendly websites with HTML, CSS, JavaScript, and modern frameworks like React and Node.js to create seamless user experiences</p>
+        </div>
+        <div class="servicesBx">
+            <img src="../icons/icon3.png" alt="">
+               <h2>Backend Development</h2>
+               <p>Developing robust backend solutions with Java and Node.js, utilizing SQL and NoSQL databases for scalable and efficient APIs and server-side applications.</p>
+        </div>
+ 
+     
+    </div>
+</section>
+
+
+
+<div id="contact" class="big-container-footer">
+<div class="small-container">
+    <div class="row">
+        <div class="col-5">
+            <h2>Gagik Yesayan</h2>
+            <p>Software Developer</p>
+            <div class="contact-icons">
+                <img class="github-icon" src="../icons/github.png" alt="">
+                <img class="linkedin-icon" src="../icons/linkedin.png" alt="">
+            </div>
+        </div>
+       
+        <div class="col-5">
+            <h4>Contact Details</h4>
+            <nav>
+                <ul>
+                    <li>Germany, Gelsenkirchen</li>
+                    <li>+49 1575 7054173</li>
+                    <li>contact@gagikyesayan.me </li>
+                </ul>
+            </nav>
+        </div>
+      
+        <div class="col-5">
+            <h4>Have a question?</h4>
+            <nav>
+              <form action="">
+                <input placeholder="Your Email" type="email">
+
+                <textarea placeholder="Your Message" name="" id=""></textarea>
+                
+                <button>Send</button>
+              </form>
+            </nav>
+        </div>
+    </div>
+</div>        
+</div>
+    
+<script src="../scripts/testimonial-animation.js"></script>
+<script src="../scripts/main.js"></script>
+</body>
+</html>
