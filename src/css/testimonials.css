@@ -13,14 +13,17 @@
 }
 .row-testimonial{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .small-testimonial-container{
-    position: absolute;
-    right: -650px;
+    /* position: absolute; */
+    /* right: -650px; */
+    margin: auto;
     transition: right 0.1s linear;
-    transform: translateY(10%);  
+    /* transform: translateY(10%);   */
 }
 
 
@@ -28,13 +31,13 @@
 
 .small-testimonial-container .col{
     margin: 20px;
-    height: 320px;
-    width: 300px;
+    width: 22rem;
+    height: 25rem;
     background-color: rgb(234, 234, 234);
     position: relative;
     display: flex;
     flex-direction: column; 
-    font-size: 14px;
+    font-size: 1.2rem;
     text-align: center;
 
 }

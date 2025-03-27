@@ -12,7 +12,8 @@
     padding: 10px;
     color: white;
     width: 220px;
-    height: 160px;
+    height: 200px;
+
 } 
 
 
@@ -45,7 +46,7 @@
 }
 
 .big-container-footer .small-container .col-5 h4{
-    font-size: 22px;
+    font-size: 1.5rem;
 }
 
 .big-container-footer .small-container .col-5 nav form button{
@@ -59,7 +60,7 @@
 }
 
 .big-container-footer .col-5 nav ul h5 {
-    font-size: 16px;
+    font-size:2rem;
     color: white;
 }
 .big-container-footer{

@@ -93,3 +93,56 @@
 
     
 }
+
+
+
+
+/* Extra small devices (phones) */
+@media (max-width: 576px) {
+
+}
+  
+  /* Small devices (large phones, small tablets) */
+  @media (max-width: 768px) {
+    /* Your styles for large phones and small tablets */
+  }
+
+  
+  /* Medium devices (tablets, small laptops) */
+  @media (max-width: 1024px) {
+    /* Your styles for tablets and small laptops */
+  }
+  
+  /* Large devices (laptops, desktops) */
+  @media (max-width: 1440px) {
+    .banner h2{
+        font-size: 2.5rem;
+       }
+       .banner h3{
+        font-size: 2rem;
+       }
+       .banner .btn{
+        width: 14rem;
+        font-size: 1.6rem;
+        height: 4rem;
+        text-align: center;
+    
+       }
+       .testimonial h2{
+        font-size: 3rem;
+       }
+       .testimonial{
+        height: 1200px;
+       }
+    /* Your styles for large laptops and desktops */
+  }
+  
+  /* Extra Large devices (big screens) */
+  @media (min-width: 1441px) {
+    /* Your styles for very large screens */
+  }
+  @media (max-width:883px) {
+    .testimonial{
+        height: 1700px;
+    }
+}
