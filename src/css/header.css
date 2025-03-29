@@ -42,6 +42,7 @@
     border: 1px solid white;
 }
 header{
+    height: 80px;
     position: fixed;
     top: 0;
     left: 0;
