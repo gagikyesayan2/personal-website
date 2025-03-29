@@ -31,8 +31,8 @@
 
 .small-testimonial-container .col{
     margin: 20px;
-    width: 22rem;
-    height: 25rem;
+    width: 18rem;
+    height: 27rem;
     background-color: rgb(234, 234, 234);
     position: relative;
     display: flex;
@@ -43,13 +43,14 @@
 }
 .small-testimonial-container .col .client-photo{
     width: 100px;
-    height: 150px;
-
+    height: 120px;
+ 
 }
 .small-testimonial-container .col .client-photo img{
     width: 100px;
-    position: absolute;
+    position: absolute; 
     height: 100px;
+    margin: auto;
     transform: translate(65%, 20%);
 
 }
